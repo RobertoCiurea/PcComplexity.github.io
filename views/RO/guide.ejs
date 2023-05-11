@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>PcComplexity</title>
+        <script src="https://kit.fontawesome.com/017f1c0c45.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
+    </head>
+    <body>
+      <!--TopMenu-->
+
+       <div class="header">
+        <nav>
+            <img src="img/guide.png" class="logo">
+            <img src="img/main-logo.png" id="logo">
+           
+               <ul>                   <li><a href="/" class="btn"><i class="fa-solid fa-house"></i>Home</a></li>
+                   <!--HoverList-->
+                <li class="btn"><i class="fa-solid fa-microchip"></i>Componente 
+                   <div class="sub-menu">
+                        <ul>
+                            <li><a href="/cpu" class="btn">Microprocesor</a></li>
+                                <hr>
+                                <li><a href="/motherboard" class="btn" >Placa de baza</a></li>
+                                <hr>
+                                <li><a href="/gpu" class="btn">Placa video</a></li>
+                                <hr>
+                                <li><a href="/ram" class="btn">Memoria RAM</a></li>
+                                <hr>
+                                <li><a href="/storage" class="btn">Stocare</a></li>
+                                <hr>
+                                <li><a href="/psu" class="btn">Sursa</a></li>
+                                <hr>
+                                <li><a href="/case" class="btn">Carcasa</a></li>
+                                <hr>
+                                <li><a href="/guide" class="btn">Ghid</a></li>
+                          
+                        </ul>
+                  
+                   </div> 
+                </li>
+                   <li><a href="/guide" class="btn"><i class="fa-solid fa-book"></i>Ghid</a></li>
+               </ul>
+               
+            </div>
+           </nav> 
+           <br>
+           
+        </div>
+       </div>
+       <!--Main Text Part 1-->
+       <div class="content">
+        <br>
+        <ul>
+            <li><a href="/eng/guide" id="btn"><i class="fa-solid fa-globe"></i>ENG</a></li>
+    </ul>
+    <br>
+        <h2>Ghid pentru construirea unui computer personal </h2>
+        <br>
+        <h3>Bugetul si scopul unui computer personal </h3>
+        <p>Timpurile moderne pe care le traim ne ofera la dispozitie o gama larga de componente. Fie ca esti pasionat de gaming sau ca lucrezi in domeniul office, exista o varietate de posibilitati de unde poti alege.</p>
+        <p>Daca doresti sa-ti construiesti tu singur un computer personal trebuie sa ai in vedere un buget si un scop al acelui computer.</p>
+        <p>Daca esti pasionat de jocuri sau daca folosesti programe solicitante, dar ai un buget restrans, trebuie sa iti alegi componentele cat mai echilibrate.</p>
+        <p>Spre exemplu, daca alegi sa investesti intr-o placa video mai performanta, dar nu iti raman bani decat pentru un procesor mai slab si memorie RAM mai putina, risti sa intampini fenomenul de <b>Bottleneck</b>.</p>
+        <p>Pentru domeniul office, lucrurile nu sunt chiar la fel. Este recomandat sa se opteze spre un procesor rapid (Intel I3 10100,  AMD Ryzen 3 3200G) cu o placa video integrata.</p>
+        <p>Totodata, trebuie luate in considerare si placa de baza, dar si memoria RAM.</p>
+        <br>
+        <!--Photo Galery-->
+            <img src="img/guide_pht1.png" class="pht">
+
+        <p><b>*Nota: Bottleneck</b> = fenomenul in care intregul sistem este incetinit din pricina diferentei de performanta dintre doi sau mai multe componente.</p>
+        <br>
+                    <!--Procesor-->
+        <h3>Alegerea microprocesorului</h3>
+        <p>In prezent, exista 2 giganti atunci cand vorbim de producerea si de comercializarea de microprocesoare, <b>Intel</b> si <b>AMD</b>.</p>
+        <p>Alegerea dintre aceste doua companii a devenit cu timpul preferentiala, performantele dintre generatiile mai noi devenind similare.</p>
+        <p>Cu toate asta exista si unele diferente, cele doua procesoare functionand doar pe un singur tip de soclu al placii de baza.</p>
+        <p><b>Intel</b> functioneaza  doar pe soclu LGA in functie de generatie:</p>
+        <p>LGA 775(Pentium, Celeron, Core 2), LGA 1366(Seria I7 900), LGA 1155(Generatia 2 si 3), LGA 1150(Generatia 4), LGA1 1151(Generatia 6 si 7), </p>
+        <p>LGA 1151 v2(Generatia 8 si 9) LGA 1200(generatia 10 si 11) si LGA 1700(generatia 12).</p>
+        <p>In schimb, <b>AMD</b> functioneaza la randul sau pe propriile socluri PGA:</p>
+        <p>PGA AM2(Athlon 64, 64X), PGA AM2+(Athlon 64, Athlon X2, Phenom, Phenom II), PGA AMD3(Phenom II, Athlon II, Sempron, Opteron), PGA AM3+(AMD FX, Phenom II, AThlon II, Sempron),</p>
+        <p> PGA AM4(Athlon 200, Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9). </p>
+         <!--Photo Galery-->
+         <img src="img/guide_pht2.jpg" class="pht">
+         <br>
+         <p><b>*Nota: Soclu(Socket)</b> = lacasul de pe placa de baza unde se introduce microprocesorul. Numarul din dreptul sau reprezinta numarul de pini ai microprocesorului(ex: Socket 1150 - 1150 pini)</p>
+         <br>
+                    <!--Placa de baza-->
+         <h3>Alegerea placii de baza</h3>
+        <p>  Ca si procesoarele, exista o varietate de modele de placi de baza, fiecare cu tehnologii cat mai spectaculoase </p>  
+        <p>Pe piata, exista mai multi producatori de placi de baza, precum Asus, Gigabyte, ASRock, MSI, Biostar si multi altii.</p>
+        <p>Pentru a ne alege placa de baza perfecta trebuie sa luam in calcul generatia procesorului (difera soclul), viteza si tehnologia memoriei RAM (133Mhz, 1600Mhz, 3200Mhz, respectiv DDR2, DDR3, DDR4),</p>
+        <p>dar si dimensiunile acesteia: Mini-ITX, Micro-ITX(cea mai folosita), ATX si EATX(Extenden ATX), pentru a se potrivi in lacasurile carcasei.</p>
+            <!--Photo Galery-->
+         <img src="img/guide_pht3.jpg" class="pht">
+         <br>
+                    <!--PLaca video-->
+         <h3>Alegerea placii video</h3>
+         <p>In cazul placilor video, pe piata exista 2 mari producatori: <b>Nvidia si AMD.</b></p>
+         <p>La fel ca la microprocesoare, alegerea uneia dintre aceste 2 companii a devenit in functie de preferinta consumatorului.</p>
+         <p>Cu toate acestea, fiecare companie se remarca prin caracteristici proprii:</p>
+         <p>Nvidia produce modele puternice (RTX 3060, RTX 2070, GTX 1080, GTX 1660 TI), cu tehnologii proprii (Nvidia 3D Vision, DLSS, RTX), care ruleaza la temperaturi mici, dar la un pret mai ridicat decat modelele de la AMD</p>
+         <p>In mod similar, AMD produce modele puternice (RX 6800 XT, RX 5700XT, RX 5500XT, RX 570), cu tehnologii proprii(AMD Rqdeon ANti-Lag, AMD Freesync, AMD Smart Access Memory), care ruleaza la temperaturi mai mari decat Nvidia .</p>
+         <p>Un factor important al placilor video este reprezentat de memoria acestora care poate varia intre 1Gb si 24Gb.</p>
+         <p>Similar cu memoria ram, acestea sunt dezvoltate cu o tehnologie GDDR (GDDR3, GDDR5, GDDR6).</p>
+         <p>Toate placile video, indiferent de vechimea acestora, prezinta iesiri pentru a fi conectate la un monitor/videoproiector. In prezent majoritatea modelelor dispun de porturi DVI/HDMI/DisplayPort (cel mai modern)</p>
+        <!--Photo Galery-->
+        <img src="img/guide_pht4.png" class="pht">
+        <br>
+                    <!--Memoria RAM-->
+        <h3>Alegerea memoriei RAM</h3>
+        <p>Odata cu evolutia tehnologiei, memoriile RAM au devenit din ce in ce mai rapide si mai accesibile.</p>
+        <p>Printre producatorii de memorii RAM de pe piata se numara: Kingston, Corsair, Crucial, Pretec, Samsung, Viking.</p>
+        <p>Pentru alegerea memoriei RAM corespunzatoare trebuie sa fie luate in calcul compatibilitatea acesteia cu placa de baza (tehnologia DDRx, dar si capacitatea acestora)</p>
+        <p>si cu microprocesorul (frecventa la care ruleaza, ex: 2666Mhz).</p>
+        <p>Totodata un factor important care face diferenta intre memoriile RAM este reprezentant de latenta. Cu cat latenta este mai mica, cu atat memoria RAM este mai rapida.</p>
+        <p>Memoriile RAM pot rula pe placa de baza in: Single Channel(o singura placuta RAM introdusa pe placa de baza - nerecomandat),</p>
+        <p>in Dual Channel(doua placute RAM care trebuie sa ruleze la aceasi frecventa si latenta - cel mai recomandat),</p>
+        <p>in Quad Channel (patru placute RAM care trebuie sa ruleze la aceasi frecventa si latenta - placa de baza trebuie sa fie echipata cu 4 sloturi de RAM), dar si mixt</p>
+        <p>in grupari de cate 3 placute(nerecomandat si inutil, pierzandu-se multa performanta).</p>
+            <!--Photo Galery-->
+            <img src="img/guide_pht5.jpg" class="pht">
+            <br>
+            <p><b>*Nota: Latenta</b> = numărul de cicluri/secundă pe care memoria RAM le poate procesa atunci când are de făcut câte ceva.</p>
+            <p><b>*Nota: Frecventa</b> = viteza de procesare pe secunda a memoriei RAM masurata in Mhz</p>
+            <br>
+                    <!--Stoacrea: HDD/SSD/NVMe-->
+            <h3>Stocarea</h3>
+           <p>In urma cu 30, 40 de ani stocare datelor reprezenta o mare problema pentru lumea computerelor, aceasta fiind de fiecare data prea putina, prea inceata si prea costisitoare.</p> 
+           <p>In prezent putem spune ca traim clipe norocoase, deoarece procesul evolutiei stocarii este unul inaintat</p>
+           <p>De la o capacitate de doar cativa Kb si viteze reduse, dispozitivele de stocare au ajuns la capacitati fabuloase de cativa Tb si viteze de pana la 32 Gb/s</p>
+           <p>Totodata, pe piata exista o multime de producatori de dispozitive de stocare, precum Samsung, Western Digital, Seagate, Kingston, Crucial, Intel, Adata.</p>
+           <p>In randul dispozitivelor de stocare se numara: HDD (Hard Disk Device - poate atinge viteze de pana la 200 Mb/s), SSD(Solid State Driver - poate atinge viteze de pana la 6 Gb/s).</p>
+           <p>si NVMe SSD(nonvolatile memory express - poate atinge viteze de pana la 32 Gb/s).</p>
+           <p>HDD-urile si SSD-uri sunt conectate la placa de baza printr-un cablu SATA(Serial ATA), in timp ce SSDul NVMe este atasat direct pe placa de baza printr-un lacas de tip M2.</p>
+           <p>Recomandat, pentru construirea unui computer personal, este sa se monteze un HDD(500Gb+ pentru aplicatii si jocuri) si un SSD SATA sau NVMe (256Gb+ pentru sistemul de operare si aplicatiile care necesita o viteza de operare mai mare).</p>
+           <!--Photo Galery-->
+           <img src="img/guide_pht6.png" class="pht">
+           <br>
+                    <!--Sursa de alimentare-->
+            <h3>Sursa de alimentare</h3>
+            <p>De cele mai multe ori, in asamblarea unui computer personal, este ignorat unul dintre cele mai importante aspecte al unui sistem de calcul, sursa de alimentare.</p>
+            <p><b>Sursa de alimentare</b> este componenta fara de care computerul nu poate porni si rula. Indiferent daca computerul este folosit petru regim office sau gaming, acesta necesita o sursa cu o capacitate suficient de mare </p>
+            <p>pentru a mentine functionabilitatea, intr-un mod corespunzator, a tuturor componetntelor.</p>
+            <p>Cand vine vorba de producatori, exista o gama larga de branduri, precum: Aqirys, Cooler Master, Lian Li, Seasonic, nJoy, Corsair, Zalman.</p>
+            <p>Pentru un computer office este recomandata o sursa de maxim 450W, in timp ce sistemele de gaming necesita cel putin 500W reali (Certificat Bronze minim).</p>
+             <!--Photo Galery-->
+           <img src="img/guide_pht8.png" class="pht">
+           <br>
+                  
+
+                    <!--Carcasa-->
+                <h3>Alegerea carcasei si sistemelului de racire</h3>
+                <p>Chiar daca nu pare, dar carcasa reprezinta un factor important in construirea unui computer personal.</p>
+                <p>Printre marii producatori de carcase si de sisteme de racire de pe piata se numara: Cooler Master, NZXT, Aqirys, Corsair, Lian Li, Be Quiet!, Thermaltake.</p>
+                <p>Indiferent daca intentionezi sa asamblezi un computer pentru gaming sau pentru office, carcasa are aceleasi roluri de a proteja restul componentelor de praf si alti factori externi si de a mentine o temperatura cat mai rece.</p>
+                <p>Carcasele au ajuns sa poata fi prevazute cu o multime sisteme de racire, de la ventilatoare pe mufa MOLEX sau 4-pin pana la sisteme complexe cu racire pe lichid (AIO, folosit in special in computerele cu componente foarte performante).</p>
+                <p>Tot odata acestea sunt dotate si cu lacasuri speciale pentru: sursa de alimentare (poate fi pozitionata sus/jos), placa de baza, iesirile placii video, HDD, SSD, ventilatoare suplimentare, DVD-ROM</p>
+                 <!--Photo Galery-->
+           <img src="img/guide_pht7.png" class="pht">
+           <br>
+        <a href="#" class="up"><i class="fa-solid fa-angle-up"></i></a>
+    <br>
+       </div>
+       <!--Bottom Menu-->
+            <div class="footer">
+                <hr>
+                <!--Arrows: prev/next-->
+                <a href="/" class="prev"><i class="fa-solid fa-arrow-left"></i></a>
+                <a href="/cpu" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <div class="footer-menu">
+                        <ul>
+                            <li><a href="/cpu" class="btn">Microprocesor</a></li>
+                    <li><a href="/motherboard" class="btn" >Placa de baza</a></li>
+                    <li><a href="/gpu" class="btn">Placa video</a></li>
+                    <li><a href="/ram" class="btn">Memoria RAM</a></li>
+                    <li><a href="/storage" class="btn">Stocare</a></li>
+                    <li><a href="/psu" class="btn">Sursa</a></li>
+                    <li><a href="/case" class="btn">Carcasa</a></li>
+                    <li><a href="/guide" class="btn">Ghid</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_dnUTv7r1b77osQJ6x22jt2PM9P_LlXQrcq48BetbyGeK5g/viewform?usp=sf_link" class="btn" target="_blank">Test</a></li>
+                        </ul>
+                   </div> 
+             <br>
+             <h1 class="owner-link">Prof. Popa Gabriela</h1>
+             <!--Newsletter-->
+             <div class="email-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" class="box" placeholder="Introduce-ti emailul">
+                <button type="button" class="email-btn" name="button">Aboneaza-te</button>
+             </div>
+            </div>
+       
+    </body>
+</html>
